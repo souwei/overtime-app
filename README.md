@@ -15,7 +15,7 @@ of overtime hours of salaried employees on a weekly basis
 - Needs to be documented if employee did not log overtime
 
 ## UI:
-Bootstrap -> for basic presentation formatting
+- Bootstrap -> for basic presentation formatting
 
 
 * Ruby version
