@@ -1,6 +1,5 @@
 # Overtime application
-## Main Requirement: an application to be used as documentation to keep track
-of overtime hours of salaried employees on a weekly basis
+## Main Requirement: an application to be used as documentation to keep track of overtime hours of salaried employees on a weekly basis
 
 ## Models
 - Post -> date:date rationale:text
