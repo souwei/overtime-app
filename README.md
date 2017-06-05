@@ -2,7 +2,7 @@
 ## Main Requirement: an application to be used as documentation to keep track of overtime hours of salaried employees on a weekly basis
 
 ## Models
-- Post -> date:date rationale:text
+- x Post -> date:date rationale:text
 - x User -> Devise
 - x AdminUser -> STI
 
