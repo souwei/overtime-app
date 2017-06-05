@@ -11,6 +11,8 @@ class PostsController < ApplicationController
   def create
     #Require brings in the post model and require is only whitelisting these parameters
     @post = Post.new(post_params)
+    @post.user_id = current_user.id
+    
     if @post.save
     #This will cause rails to expect a 'show' page
       redirect_to @post, notice: 'Your post was created successfully'

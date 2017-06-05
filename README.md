@@ -3,8 +3,8 @@
 
 ## Models
 - Post -> date:date rationale:text
-x User -> Devise
-x AdminUser -> STI
+- x User -> Devise
+- x AdminUser -> STI
 
 ## Features
 - Approval Workflow
@@ -16,7 +16,8 @@ x AdminUser -> STI
 ## UI:
 - Bootstrap -> for basic presentation formatting
 
-
+## Refactor TODOS:
+- Reactor user association integration test in post_spec
 * Ruby version
 
 * System dependencies
