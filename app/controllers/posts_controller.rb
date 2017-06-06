@@ -2,6 +2,7 @@ class PostsController < ApplicationController
   #before execution, run this method but only for show action
   before_action :set_post, only: [:show]
   def index
+    @posts = Post.all
   end
 
   def new
@@ -12,7 +13,7 @@ class PostsController < ApplicationController
     #Require brings in the post model and require is only whitelisting these parameters
     @post = Post.new(post_params)
     @post.user_id = current_user.id
-    
+
     if @post.save
     #This will cause rails to expect a 'show' page
       redirect_to @post, notice: 'Your post was created successfully'
