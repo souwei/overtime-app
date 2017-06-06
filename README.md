@@ -14,7 +14,7 @@
 - Needs to be documented if employee did not log overtime
 
 ## UI:
-- Bootstrap -> for basic presentation formatting
+- x Bootstrap -> for basic presentation formatting
 
 ## Refactor TODOS:
 - Reactor user association integration test in post_spec
